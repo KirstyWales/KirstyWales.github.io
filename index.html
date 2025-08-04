@@ -1,12 +1,87 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Welcome to Kirsty's Page</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kirsty Wales</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: radial-gradient(ellipse at top left, #2b2d42, #1a1c2c);
+      color: #f8f8f2;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+      color: #ccc;
+      max-width: 600px;
+      margin: 0 auto 2rem auto;
+    }
+
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+    }
+
+    .links a {
+      background-color: #8be9fd20;
+      border: 1px solid #8be9fd60;
+      color: #8be9fd;
+      text-decoration: none;
+      padding: 0.6rem 1.2rem;
+      border-radius: 12px;
+      font-weight: bold;
+      transition: all 0.2s ease-in-out;
+    }
+
+    .links a:hover {
+      background-color: #8be9fd40;
+      transform: scale(1.05);
+    }
+
+    .footer {
+      margin-top: 3rem;
+      font-size: 0.85rem;
+      color: #666;
+    }
+
+    .emoji {
+      font-size: 1.4rem;
+    }
+  </style>
 </head>
 <body>
-  <h1>Hello, world!</h1>
-  <p>This is my OSRS tracker and coding projects splash page.</p>
-  <a href="/osrs-herb-profit">Potion Calculator</a>
-  <a href="/osrs-price-tracker/">Potion Calculator</a>
+  <h1>Hi, I'm Kirsty 🛠️🌈</h1>
+  <p>
+    I'm a 35-year-old trans woman based in the UK, into coding, hardware, and homebrew electronics.
+    I work at a hardware store by day and build things with wires and code by night.
+    Expect OSRS tools, 3D prints, blinking lights, and some mild server rack obsession.
+  </p>
+
+  <div class="links">
+    <a href="/osrs-herb-profit">🌿 OSRS Herb Profit Calculator</a>
+    <a href="/osrs-price-tracker/">📈 OSRS Price Tracker</a>
+    <a href="https://github.com/KirstyWales" target="_blank">💻 GitHub</a>
+    <a href="mailto:kirsty@example.com">📬 Contact</a>
+  </div>
+
+  <div class="footer">
+    Built with a soldering iron, caffeine, and a bit of love. ✨
+  </div>
 </body>
 </html>
