@@ -36,6 +36,7 @@
       flex-wrap: wrap;
       gap: 1rem;
       justify-content: center;
+      margin-bottom: 2rem;
     }
 
     .links a {
@@ -54,6 +55,29 @@
       transform: scale(1.05);
     }
 
+    .projects {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+
+    .projects a {
+      background-color: #50fa7b20;
+      border: 1px solid #50fa7b60;
+      color: #50fa7b;
+      text-decoration: none;
+      padding: 0.6rem 1.2rem;
+      border-radius: 12px;
+      font-weight: bold;
+      transition: all 0.2s ease-in-out;
+    }
+
+    .projects a:hover {
+      background-color: #50fa7b40;
+      transform: scale(1.05);
+    }
+
     .footer {
       margin-top: 3rem;
       font-size: 0.85rem;
@@ -67,26 +91,30 @@
 </head>
 <body>
   <h1>Hi, I'm Kirsty 🛠️🌈</h1>
+
   <section>
-  <h2>About Me</h2>
-  <p>
-    I'm a 35-year-old trans woman based in the UK. I work in a hardware store and spend most of my free time building things, both digital and physical. I code in C++, Java, and HTML, and enjoy designing PCBs, macropads, and creating tools for Old School RuneScape.
-  </p>
-</section>
+    <h2>About Me</h2>
+    <p>
+      I'm a 35-year-old trans woman based in the UK. I work in a hardware store and spend most of my free time building things, both digital and physical. I code in C++, Java, and HTML, and enjoy designing PCBs, macropads, and creating tools for Old School RuneScape.
+    </p>
+  </section>
 
-<section>
-  <h2>Hobbies & Interests</h2>
-  <p>
-    When I'm not behind a keyboard, you'll usually find me in the gym, on RuneScape, or reorganising my toolbox for the fourth time this week. I'm into 10" server racks (yes, the compact ones), clever storage setups, and anything that makes a workspace more efficient or just more satisfying.
-  </p>
-</section>
+  <section>
+    <h2>Hobbies & Interests</h2>
+    <p>
+      When I'm not behind a keyboard, you'll usually find me in the gym, on RuneScape, or reorganising my toolbox for the fourth time this week. I'm into 10" server racks (yes, the compact ones), clever storage setups, and anything that makes a workspace more efficient or just more satisfying.
+    </p>
+  </section>
 
-
+  <!-- GitHub and Contact links after Hobbies & Interests -->
   <div class="links">
-    <a href="/osrs-herb-profit">🌿 OSRS Herb Profit Calculator</a>
-    <a href="/osrs-price-tracker/">📈 OSRS Price Tracker</a>
     <a href="https://github.com/KirstyWales" target="_blank">💻 GitHub</a>
     <a href="mailto:kirstywales@users.noreply.github.com">📬 Contact</a>
+  </div>
+
+  <!-- Projects section -->
+  <div class="projects">
+    <a href="https://github.com/KirstyWales/macropad" target="_blank">🎹 Macropad Project</a>
   </div>
 
   <div class="footer">
